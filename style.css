@@ -1,0 +1,89 @@
+
+body {
+    background-color: #07060a;
+}
+
+#ea {
+    color: #fff;
+    font-size: 50px;
+    margin-top: 5px;
+}
+
+.Flex {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+.Flex2 {
+    display: flex;
+    align-items: center;
+}
+
+.Flex3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.Flex4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Flex5 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.Flex6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Conteúdo */
+#conteudo {
+    padding: 20px 0px;
+}
+
+#conteudo h2 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* Cartões */
+.Card {
+    margin-top: 10px;
+    width: 270px;
+    height: 350px;
+    background-color: #e8e8e8;
+    border: 1px solid#a1a1a1;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.Card img {
+    border-radius: 25px 25px 0px 0px;
+    width: 270px;
+    
+}
+
+
+.Botao {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 700;
+    background-color: rgb(238, 5, 5);
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    margin-top: 120px;
+}
+
